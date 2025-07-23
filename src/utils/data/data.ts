@@ -185,4 +185,17 @@ const users = [
     }
 ];
 
-export { products, customers, users }
+const tasks = [
+    { "id": 1, "task": "Schedule Q3 budget review meeting", "completed": false },
+    { "id": 2, "task": "Send follow-up email to marketing team regarding campaign launch", "completed": true },
+    { "id": 3, "task": "Research and compare new project management software options", "completed": false },
+    { "id": 4, "task": "Prepare presentation for Monday's client meeting", "completed": false },
+    { "id": 5, "task": "Review and approve pending invoices", "completed": true },
+    { "id": 6, "task": "Update employee handbook with new remote work policy", "completed": false },
+    { "id": 7, "task": "Order new office supplies", "completed": true },
+    { "id": 8, "task": "Draft agenda for weekly team sync", "completed": false },
+    { "id": 9, "task": "Submit expense reports for last business trip", "completed": true },
+    { "id": 10, "task": "Organize digital files on shared drive", "completed": false }
+]
+
+export { products, customers, users, tasks }
